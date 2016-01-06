@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		273B19251C3A69E300B1CB37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273B19241C3A69E300B1CB37 /* AppDelegate.swift */; };
+		273B19271C3A69E300B1CB37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273B19261C3A69E300B1CB37 /* ViewController.swift */; };
+		273B192C1C3A69E300B1CB37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273B192B1C3A69E300B1CB37 /* Assets.xcassets */; };
+		273B192F1C3A69E300B1CB37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273B192D1C3A69E300B1CB37 /* LaunchScreen.storyboard */; };
+		273B19371C3A747D00B1CB37 /* YC_PopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273B19361C3A747D00B1CB37 /* YC_PopAnimation.swift */; };
+		273B19391C3A74A900B1CB37 /* YC_NavigationInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273B19381C3A74A900B1CB37 /* YC_NavigationInteractiveTransition.swift */; };
+		273B193B1C3B559200B1CB37 /* YC_NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273B193A1C3B559200B1CB37 /* YC_NavigationController.swift */; };
+		273B19421C3BC1EA00B1CB37 /* UINavigationController+FullscreenPopGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273B19411C3BC1EA00B1CB37 /* UINavigationController+FullscreenPopGesture.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		273B19211C3A69E300B1CB37 /* CustomPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		273B19241C3A69E300B1CB37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		273B19261C3A69E300B1CB37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		273B192B1C3A69E300B1CB37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		273B192E1C3A69E300B1CB37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		273B19301C3A69E300B1CB37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273B19361C3A747D00B1CB37 /* YC_PopAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YC_PopAnimation.swift; sourceTree = "<group>"; };
+		273B19381C3A74A900B1CB37 /* YC_NavigationInteractiveTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YC_NavigationInteractiveTransition.swift; sourceTree = "<group>"; };
+		273B193A1C3B559200B1CB37 /* YC_NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YC_NavigationController.swift; sourceTree = "<group>"; };
+		273B19411C3BC1EA00B1CB37 /* UINavigationController+FullscreenPopGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+FullscreenPopGesture.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		273B191E1C3A69E300B1CB37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		273B19181C3A69E300B1CB37 = {
+			isa = PBXGroup;
+			children = (
+				273B19231C3A69E300B1CB37 /* CustomPop */,
+				273B19221C3A69E300B1CB37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		273B19221C3A69E300B1CB37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				273B19211C3A69E300B1CB37 /* CustomPop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		273B19231C3A69E300B1CB37 /* CustomPop */ = {
+			isa = PBXGroup;
+			children = (
+				273B19241C3A69E300B1CB37 /* AppDelegate.swift */,
+				273B19261C3A69E300B1CB37 /* ViewController.swift */,
+				273B192B1C3A69E300B1CB37 /* Assets.xcassets */,
+				273B192D1C3A69E300B1CB37 /* LaunchScreen.storyboard */,
+				273B19301C3A69E300B1CB37 /* Info.plist */,
+				273B19361C3A747D00B1CB37 /* YC_PopAnimation.swift */,
+				273B19381C3A74A900B1CB37 /* YC_NavigationInteractiveTransition.swift */,
+				273B193A1C3B559200B1CB37 /* YC_NavigationController.swift */,
+				273B19411C3BC1EA00B1CB37 /* UINavigationController+FullscreenPopGesture.swift */,
+			);
+			path = CustomPop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		273B19201C3A69E300B1CB37 /* CustomPop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273B19331C3A69E300B1CB37 /* Build configuration list for PBXNativeTarget "CustomPop" */;
+			buildPhases = (
+				273B191D1C3A69E300B1CB37 /* Sources */,
+				273B191E1C3A69E300B1CB37 /* Frameworks */,
+				273B191F1C3A69E300B1CB37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomPop;
+			productName = CustomPop;
+			productReference = 273B19211C3A69E300B1CB37 /* CustomPop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		273B19191C3A69E300B1CB37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yc;
+				TargetAttributes = {
+					273B19201C3A69E300B1CB37 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2XXBRUZTAK;
+					};
+				};
+			};
+			buildConfigurationList = 273B191C1C3A69E300B1CB37 /* Build configuration list for PBXProject "CustomPop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 273B19181C3A69E300B1CB37;
+			productRefGroup = 273B19221C3A69E300B1CB37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				273B19201C3A69E300B1CB37 /* CustomPop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		273B191F1C3A69E300B1CB37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273B192F1C3A69E300B1CB37 /* LaunchScreen.storyboard in Resources */,
+				273B192C1C3A69E300B1CB37 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		273B191D1C3A69E300B1CB37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273B193B1C3B559200B1CB37 /* YC_NavigationController.swift in Sources */,
+				273B19371C3A747D00B1CB37 /* YC_PopAnimation.swift in Sources */,
+				273B19421C3BC1EA00B1CB37 /* UINavigationController+FullscreenPopGesture.swift in Sources */,
+				273B19391C3A74A900B1CB37 /* YC_NavigationInteractiveTransition.swift in Sources */,
+				273B19271C3A69E300B1CB37 /* ViewController.swift in Sources */,
+				273B19251C3A69E300B1CB37 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		273B192D1C3A69E300B1CB37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				273B192E1C3A69E300B1CB37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		273B19311C3A69E300B1CB37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-D USE_OPTIONS_3";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		273B19321C3A69E300B1CB37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "-D USE_OPTIONS_3";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		273B19341C3A69E300B1CB37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = yc.CustomPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		273B19351C3A69E300B1CB37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = yc.CustomPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		273B191C1C3A69E300B1CB37 /* Build configuration list for PBXProject "CustomPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273B19311C3A69E300B1CB37 /* Debug */,
+				273B19321C3A69E300B1CB37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273B19331C3A69E300B1CB37 /* Build configuration list for PBXNativeTarget "CustomPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273B19341C3A69E300B1CB37 /* Debug */,
+				273B19351C3A69E300B1CB37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 273B19191C3A69E300B1CB37 /* Project object */;
+}
