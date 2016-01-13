@@ -162,10 +162,6 @@ extension UIViewController {
 
 
     public override class func initialize() {
-        if self !== UIViewController.self {
-            return
-        }
-
         dispatch_once(&fd_UIViewController_Static.token) { () -> Void in
             let originalSelector = Selector("viewWillAppear:")
             let swizzledSelector = Selector("fd_viewWillAppear:")
@@ -262,10 +258,6 @@ extension UINavigationController {
     }
 
     public override class func initialize() {
-        if self != UINavigationController.self {
-            return
-        }
-
         dispatch_once(&fd_UINavigationController_Static.token) { () -> Void in
             let originalSelector = Selector("pushViewController:animated:")
             let swizzledSelector = Selector("fd_pushViewController:animated:")
